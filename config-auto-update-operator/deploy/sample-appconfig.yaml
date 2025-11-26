@@ -1,0 +1,9 @@
+apiVersion: config.example.com/v1alpha1
+kind: AppConfig
+metadata:
+  name: sample-app-config
+spec:
+  targetDeployment: sample-app
+  configData:
+    LOG_LEVEL: "info"
+    APP_MODE: "production"
